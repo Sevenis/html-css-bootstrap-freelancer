@@ -16,6 +16,15 @@ header {
     padding-bottom: 20px;
 }
 
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 20px;
+}
+
 .fas {
     font-size: 33px;
     display: inline-block;
@@ -28,6 +37,7 @@ hr {
     width:100px;
     display: inline-block;
     vertical-align: middle;
+    border-top:5px solid white;
 }
 
 .logo-zone {
@@ -86,7 +96,7 @@ header h4 {
 }
 
 .box {
-    display:grid;
+    /* display:grid; */
 }
 
 .portfolio-zone img {
@@ -97,4 +107,38 @@ header h4 {
 
 .row.seconda [class^="col-"] {
     padding: 20px 20px;
+}
+
+/* ABOUT ZONE */
+
+.about-zone {
+    background-color: #1abc9c;
+    padding-bottom: 80px;
+    padding-top: 40px;
+    color: white;
+}
+
+.about-zone .container {
+    width: 100%;
+}
+
+.about-zone .container p {
+    text-align: left;
+    padding-top: 20px;
+    margin: 20px;
+}
+
+.about-zone .btn-download {
+    background-color: #1abc9c;
+    color: white;
+    padding: 15px 25px;
+    margin: 10px auto;
+    font-size: 20px;
+    font-weight: 100;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.about-zone .fa-download {
+    font-size: 20px;
 }
