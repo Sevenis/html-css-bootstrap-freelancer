@@ -1,3 +1,10 @@
+/* .clearfix::after,
+.row::after {
+    content: '';
+    display: table;
+    clear: both;
+} */
+
 body {
     font-family: 'Lato', sans-serif;
 }
@@ -9,10 +16,25 @@ header {
     padding-bottom: 20px;
 }
 
+.fas {
+    font-size: 33px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+hr {
+    width:100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .logo-zone {
     background-color: #1abc9c;
-    padding-bottom: 40px;
+    padding-bottom: 80px;
 }
+
 header ul {
     text-align: right;
 }
@@ -28,7 +50,6 @@ header h4 {
 }
 
 .logo-zone  {
-    /* background-color: #1abc9c */
     color: white;
 }
 
@@ -42,13 +63,38 @@ header h4 {
     font-weight: 700;
 }
 
-.logo-zone .glyphicon {
-    font-size: 60px;
+.logo-zone hr {
+    border-top:5px solid white;
 }
 
-.logo-zone hr {
-    width:100px;
-    border-top:5px solid white;
-    display: inline-block;
-    padding-bottom: 10px;
+/* PORTFOLIO ZONE */
+.portfolio-zone {
+    color: #2c3e50;
+}
+
+.row.portfolio-testo {
+    padding-top:40px;
+}
+
+.portfolio-zone h2 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.portfolio-zone hr {
+    border-top:5px solid #2c3e50;
+}
+
+.box {
+    display:grid;
+}
+
+.portfolio-zone img {
+    width: 330px;
+    height: 240px;
+    border-radius: 5px;
+}
+
+.row.seconda [class^="col-"] {
+    padding: 20px 20px;
 }
