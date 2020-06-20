@@ -102,7 +102,79 @@
                 </div>
             </div>
         </div>
+        <!-- CONTACT ZONE -->
+        <div class="contact-zone container-fluid text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3">
+                        <div class="contact-titolo">
+                            <h2>CONTACT ME</h2>
+                            <div class="linea">
+                                <hr>
+                                 <i class="fas fa-star"></i>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+<!-- CONTACT FORM IMPORTATO -->
+                    <form id="contact-form" method="post" action="contact.php" role="form">
 
+                        <div class="messages"></div>
+
+                        <div class="controls">
+
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3">
+                                    <div class="form-group">
+                                        <label for="form_name">Firstname *</label>
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-md-offset-3">
+                                    <div class="form-group">
+                                        <label for="form_lastname">Lastname *</label>
+                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3">
+                                    <div class="form-group">
+                                        <label for="form_email">Email *</label>
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-md-offset-3">
+                                    <div class="form-group">
+                                        <label for="form_phone">Phone *</label>
+                                        <input id="form_phone" type="tel" name="tel" class="form-control" placeholder="Please enter your phone *" required="required" data-error="Valid phone number is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-md-offset-3">
+                                    <div class="form-group">
+                                        <label for="form_message">Message *</label>
+                                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-md-offset-3">
+                                    <button class="btn-send">Send</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+<!-- FINE FORM CONTACT -->
+
+
+                </div>
+            </div>
+        </div>
 
     </body>
 </html>
